@@ -1,22 +1,32 @@
-# Changelog
+# CHANGELOG
 
-All notable changes to this project are documented in this file.
-
-Versioned releases are managed using Git tags.
+このプロジェクトの変更履歴を記録します。
 
 ---
 
-## v1.2.0
-- Unified "Heart Create" UI panel
-- Smooth / Jewel heart type toggle
-- Size-only parameter for reproducible mesh generation
-- Confirmed compatibility with Blender 3.6–5.0
+## [1.2.0]
 
-## v1.1.0
-- Improved UI usability in the Redo panel
-- Replaced dropdown with toggle buttons
+### Added
+- 「Heart Create」UIパネルを統合
+- Smooth / Jewel ハートタイプ切り替え機能
+- サイズのみで再現可能なメッシュ生成パラメータ
 
-## v1.0.0
-- Initial release
-- Reference-mesh-driven heart generation
-- Separate Smooth / Jewel implementations
+### Technical
+- Blender 3.6 ～ 5.0 での動作確認
+
+---
+
+## [1.1.0]
+
+### Changed
+- RedoパネルのUI操作性を改善
+- ドロップダウンをトグルボタンへ変更
+
+---
+
+## [1.0.0]
+
+### Added
+- 初回リリース
+- 参照メッシュベースのハート生成機能
+- Smooth / Jewel 2種類の生成方式
